@@ -22,6 +22,7 @@ body{
 
     background: hsl(216, 50%, 16%);
     height: 85%;
+    width: 95%;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@ body{
 
             #last{
                 z-index: 100;
+                opacity: 1;
             }
 
             
@@ -68,6 +70,8 @@ body{
         #last{
             position: absolute;
             z-index: -10;
+            opacity: 0;
+            transition: 0.5s;
         }
 
     }
