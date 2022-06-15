@@ -1,5 +1,54 @@
-html {
-  font-size: 18px;
+@media (min-width: 0px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1080px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media (min-width: 0px) {
+  html .card {
+    width: 95%;
+    height: 85%;
+  }
+}
+@media (min-width: 320px) {
+  html .card {
+    width: 67%;
+    height: 75%;
+  }
+}
+@media (min-width: 440px) {
+  html .card {
+    width: 55%;
+    height: 75%;
+  }
+}
+@media (min-width: 570px) {
+  html .card {
+    width: 45%;
+    height: 75%;
+  }
+}
+@media (min-width: 680px) {
+  html .card {
+    width: 30%;
+    height: 75%;
+  }
+}
+@media (min-width: 1080px) {
+  html .card {
+    width: 25%;
+    height: 75%;
+  }
+}
+@media (min-width: 1080px) {
+  html .card .profile img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 body {
@@ -14,12 +63,11 @@ body {
 
 .card {
   background: hsl(216deg, 50%, 16%);
-  height: 85%;
-  width: 95%;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0 40px 10px 10px hsl(215deg, 55%, 10%);
 }
 .card .images {
   position: relative;
@@ -30,8 +78,8 @@ body {
   width: 85%;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  border-radius: 5px;
+  margin-top: 25px;
+  border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
 }
@@ -49,7 +97,7 @@ body {
   display: flex;
   height: 100%;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.5s;
 }
 .card .images #last {
@@ -63,10 +111,10 @@ body {
   width: 85%;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .card .text .title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
   cursor: pointer;

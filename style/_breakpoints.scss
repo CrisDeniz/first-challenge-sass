@@ -1,9 +1,63 @@
 $xs:320px;
-$s:550px;
-$m:768px;
-$l:1080px;
-$xl:1440px;
+$s:440px;
+$m:570px;
+$l:680px;
+$xl:1080px;
+
+
+html{
+    
+    @media (min-width: 0px){
+        font-size: 18px;
+    }
+    
+    @media (min-width: $xl) {
+        font-size: 22px;
+    }
 
 .card{
+
+    @media (min-width: 0px) {
+        width: 95%;
+        height: 85%;
+    }
+
+    @media (min-width: $xs) {
+        width: 67%;
+        height: 75%;
+    }
     
-} 
+    @media (min-width: $s) {
+        width: 55%;
+        height: 75%;
+    }
+
+    @media (min-width: $m) {
+        width: 45%;
+        height: 75%;
+    }
+
+    @media (min-width: $l) {
+        width: 30%;
+        height: 75%;
+    }
+
+    @media (min-width: $xl) {
+        width: 25%;
+        height: 75%;
+    }
+
+    .profile {
+
+        img{
+            @media (min-width: $xl) {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+    }
+
+}
+    
+}
