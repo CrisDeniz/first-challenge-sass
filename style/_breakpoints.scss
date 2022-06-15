@@ -1,0 +1,28 @@
+$xs:320px;
+$s:520px;
+$m:768px;
+$l:1080px;
+$xl:1440px;
+
+.card{
+    @media (max-width: $xl) {
+        width: 30%;
+        }
+    
+    @media (max-width: $l) {
+        width: 40%;
+        }
+    
+    @media (max-width: $m) {
+        width: 40%;
+        }
+    
+    @media (max-width: $s) {
+        width: 70%;
+        }
+    
+    @media (max-width: $xs) {
+        width: 90%;
+}
+
+} 
