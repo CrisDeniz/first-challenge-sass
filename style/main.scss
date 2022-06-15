@@ -1,4 +1,4 @@
-@import 'breakpoints';
+@use 'breakpoints';
 
 
 body{
@@ -9,6 +9,16 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
+
+    .attribution { 
+        font-size: 11px; text-align: center; 
+        color: hsl(215, 51%, 70%);
+        a{
+            color: hsl(0, 0%, 100%); 
+       }
+    }
+  
+
 }
 
 .card{
@@ -84,6 +94,7 @@ body{
             font-size: 1.1rem;
             color: $title-color;
             font-weight: 600;
+            margin: 0;
             cursor: pointer;
 
             &:hover{
@@ -152,6 +163,7 @@ body{
                 width: 25px;
                 border: 1px solid white;
                 border-radius: 50%;
+
             }
 
             p{

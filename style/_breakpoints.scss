@@ -1,8 +1,9 @@
-$xs:375px;
+$xs:400px;
 $s:440px;
 $m:570px;
 $l:680px;
 $xl:1080px;
+$xxl:1440px;
 
 
 html{
@@ -11,8 +12,12 @@ html{
         font-size: 18px;
     }
     
-    @media (min-width: $xl) {
+    @media (min-width: $xxl) {
         font-size: 22px;
+    }
+
+    @media (min-width: $l) {
+        font-size: 16px;
     }
 
 .card{
@@ -38,13 +43,17 @@ html{
     }
 
     @media (min-width: $l) {
-        width: 30%;
-        height: 75%;
+        width: 35%;
+        height: 80%;
     }
 
     @media (min-width: $xl) {
         width: 25%;
         height: 75%;
+    }
+    @media (min-width: $xxl) {
+        width: 25%;
+        height: 80%;
     }
 
     .profile {
