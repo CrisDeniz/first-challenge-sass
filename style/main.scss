@@ -1,4 +1,4 @@
-@use 'breakpoints';
+@import 'breakpoints';
 
 
 body{
@@ -163,7 +163,6 @@ body{
                 width: 25px;
                 border: 1px solid white;
                 border-radius: 50%;
-
             }
 
             p{

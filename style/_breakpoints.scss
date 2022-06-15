@@ -1,9 +1,8 @@
-$xs:400px;
-$s:440px;
+$xs:426px;
 $m:570px;
 $l:680px;
 $xl:1080px;
-$xxl:1440px;
+$xxl:1370px;
 
 
 html{
@@ -11,15 +10,19 @@ html{
     @media (min-width: 0px){
         font-size: 18px;
     }
-    
-    @media (min-width: $xxl) {
-        font-size: 22px;
-    }
 
     @media (min-width: $l) {
+        font-size: 14px;
+    }
+
+    @media (min-width: $xl) {
         font-size: 16px;
     }
 
+    @media (min-width: $xxl) {
+        font-size: 22px;
+    }
+    
 .card{
 
     @media (min-width: 0px) {
@@ -31,11 +34,6 @@ html{
         width: 67%;
         height: 75%;
     }
-    
-    @media (min-width: $s) {
-        width: 55%;
-        height: 75%;
-    }
 
     @media (min-width: $m) {
         width: 45%;
@@ -44,7 +42,7 @@ html{
 
     @media (min-width: $l) {
         width: 35%;
-        height: 80%;
+        height: 85%;
     }
 
     @media (min-width: $xl) {
