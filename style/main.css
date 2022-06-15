@@ -14,7 +14,7 @@
     height: 85%;
   }
 }
-@media (min-width: 320px) {
+@media (min-width: 350px) {
   html .card {
     width: 67%;
     height: 75%;
